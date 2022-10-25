@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(45deg, black, orange, gray);
+}
+
+h1{
+    text-shadow: 2px 2px orangered;
+
+}
+h1:hover{
+    color:orangered;
+}
+div{
+    background-color: black;
+    color:white;
+    position: absolute;
+    padding: 80px;
+    border-radius: 10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 5px rgba(255, 255, 255, 0.964);
+   
+}
+input{
+    padding:10px;
+    outline:none;
+    cursor: pointer;
+    
+    
+}
+
+button{
+    padding:10px;
+    width:100%;
+    outline:none;
+    box-shadow:1px 2px orangered;
+    font-size: 1em;
+    font-weight: bold;
+    
+    
+}
+button:hover{
+    background-color: orangered;
+}

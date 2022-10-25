@@ -1,0 +1,71 @@
+html, body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    background-image:linear-gradient(-45deg,gray,orange,rgba(197, 191, 12, 0.804),rgb(128, 49, 0));
+    background-size:300% 400%;
+    animation:gradient 20s ease infinite;
+
+}
+
+@keyframes gradient {
+    0% {
+        bacgorund-position:0% 50%;
+    }
+    50% {
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
+
+}
+
+div{
+    background-image:linear-gradient(-45deg,black,rgb(255, 81, 0),rgba(117, 197, 12, 0.804),rgb(179, 74, 9));
+    background-size:300% 400%;
+    animation:gradient 17s ease infinite;
+    /*background-color:black;*/
+    position:absolute;
+    padding:50px;
+    border-radius:9px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.239);
+
+}
+
+h1{
+    
+    color:rgba(11, 10, 7, 0.972);
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+}
+input{
+    padding:9px;
+    outline:none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius:6px;
+    box-shadow: no;
+
+}
+input:hover{
+    background-color:rgb(240, 231, 231);
+}
+button{
+    background-color:rgb(231, 175, 8);
+    width:100%;
+    padding:9px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius:6px;
+    outline: none;
+}
+button:hover{
+    background-color: rgba(229, 229, 18, 0.331);
+}
